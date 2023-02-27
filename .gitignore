@@ -1,0 +1,13 @@
+animCJK
+*.idea
+Asp_Server/.idea
+Asp_Server/Server/obj/
+Asp_Server/Server/bin/
+
+Asp_Server/Tests/obj/
+Asp_Server/Tests/bin/
+Asp_Server/CharSvgs/
+Asp_Server/Server/CharSvgs/
+
+CharSvgs/
+

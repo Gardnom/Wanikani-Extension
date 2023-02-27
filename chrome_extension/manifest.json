@@ -1,0 +1,17 @@
+{
+	"name": "Wanikani handwriting extension",
+	"description": "A WK extension to help teach you writing kanji by hand",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://www.wanikani.com/lesson/session"],
+			"css": ["main.css"],
+			"js": ["lesson.js"]
+		}
+	]
+}
